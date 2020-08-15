@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net471</TargetFramework>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<RootNamespace>Nez.Persistence.Tests</RootNamespace>
@@ -18,7 +18,7 @@
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
       <NoWarn>1701;1702;0649</NoWarn>
       <PlatformTarget>anycpu</PlatformTarget>
-      <DefineConstants>TRACE;DEBUG;NETFRAMEWORK;NET471</DefineConstants>
+      <DefineConstants>TRACE;DEBUG;NETFRAMEWORK;netcoreapp3.1</DefineConstants>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
       <DebugType></DebugType>
